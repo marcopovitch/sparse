@@ -13,13 +13,13 @@ Still usable but written 10 years ago !  Use it only if you know what you are do
 
 To make all the autotools files, run :
 
-`glibtoolize`
+`glibtoolize -i`
 
 `./autogen.sh`
 
-To configure and install the sparse library in your installation directory `$YOUR_PATH`, run :
+To configure and install the sparse library in your installation directory `$INSTALL_PATH`, run :
 
-`.configure --prefix=$YOUR_PATH`
+`.configure --prefix=$INSTALL_PATH`
 
 `make install`
  

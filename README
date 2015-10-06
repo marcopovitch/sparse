@@ -1,1 +1,1 @@
-gindent -kr --no-tabs -sob -bap -bad -br -ce (file.c|file.h)
+gindent -kr --no-tabs -sob -br -bap -ce -bbb -di1 (file.c|file.h)
